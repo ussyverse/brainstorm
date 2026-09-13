@@ -16,43 +16,40 @@ source code of the projects it discusses.
 
 ## Current recommendation
 
-The strongest first build is a **shot-to-sound production planner** using:
+The strongest next build is **Agent Fix Lab**, a local tool that turns a failed
+coding-agent run and a human correction into a reproducible regression case.
+Start with:
 
-- [`ussyverse/kuleshovussy`](https://github.com/ussyverse/kuleshovussy) for
-  shot-sequence metadata and missing-shot checks.
-- [`ussyverse/foleyaussy`](https://github.com/ussyverse/foleyaussy) for Foley
-  planning, cue sheets, and recording checklists.
-- [`ussyverse/chromascriptussy`](https://github.com/ussyverse/chromascriptussy)
-  for color-script checks and visual exports.
+- [`ussyverse/triageussy`](https://github.com/ussyverse/triageussy) for extracting
+  structured error evidence.
+- [`ussyverse/petrichorussy`](https://github.com/ussyverse/petrichorussy) for
+  configuration snapshots and diffs.
+- [`mojomast/hermes-correction-aware-learning`](https://github.com/mojomast/hermes-correction-aware-learning)
+  for correction records, retractions, and recurrence checks.
 
-The product would let a creator arrange a short sequence once and keep the
-shot list, sound cues, and color plan synchronized as the edit changes. The
-recommended first vertical slice combines Kuleshov and Foleya; Chromascript is
-added after stable scene identities, editable timing, and persistence work.
+The first version should target Python projects and one agent workflow. A Hermes
+import adapter is follow-on work. AgentReplay is deferred until its TypeScript
+store is repaired and its architecture is tested.
 
-See [the compounded 20-agent analysis](docs/COMPOUNDED_IDEAS.md) for the final
-top-30 ranking, detailed briefs, evidence, acceptance criteria, and validation
-plans. The earlier
-[source-checked analysis](docs/SOURCE_CHECKED_COMBINATIONS.md) contains the
-original staged MVP that established this recommendation.
+See [the independent product assessment](docs/research/conclusion.md) for the
+decision, runtime evidence, alternatives, acceptance criteria, and proposed
+two-week validation cycle. The previous shot-to-sound recommendation remains
+the strongest creative experiment.
 
 ## Strong candidates
 
 | Rank | Product idea | Projects | Primary user |
 |---|---|---|---|
-| 1 | Shot-to-sound production planner | `kuleshovussy` + `foleyaussy` + `chromascriptussy` | Independent creators and small film teams |
-| 2 | Quote-to-capacity desk | `recapturaussy` + `bidussy` + `taktussy` | Small service businesses |
-| 3 | Service problems to measured improvement | `andoniaussy` + `shewhartaussy` + `a3viaussy` | Small service and fulfillment teams |
-| 4 | Test evidence calibration packet | `acumenussy` + `calibreussy` | Software maintainers |
-| 5 | Agent trajectory-to-regression clinic | `mojomast/clanker03` + `mojomast/hermes-agent` + `chainletussy` | Agent-platform maintainers |
-| 6 | CI failure evidence packet | `triageussy` + `petrichorussy` | Software maintainers |
-| 7 | Recoverable mirror release capsule | `mojomast/arrhivescrape` + `archivioussy` + `snapshotussy` | Web archivists |
-| 8 | Authored-content regression bench | `mojomast/ludotape` + `mojomast/feverfall` + `cartographerussy` | Small game teams |
-| 9 | Control and posture redesign cards | `fittsaussy` + `rulaiaussy` | People adapting controls and work surfaces |
-| 10 | Low-decision outing exit card | `egressaussy` + `controlaussy` | Families and small groups |
+| 1 | Agent Fix Lab | `triageussy` + `petrichorussy` + `mojomast/hermes-correction-aware-learning` | Coding-agent maintainers |
+| 2 | Service-improvement desk | `andoniaussy` + `shewhartaussy` + `a3viaussy` | Small repair and IT service teams |
+| 3 | Shot-to-sound capture planner | `kuleshovussy` + `foleyaussy`; `chromascriptussy` later | Independent creators and small film teams |
+| 4 | Scope-and-capacity quote worksheet | `bidussy` + `taktussy`; `recapturaussy` only if needed | Small service businesses |
 
 ## Documents
 
+- [`docs/research/conclusion.md`](docs/research/conclusion.md): latest independent
+  product assessment, source and runtime findings, ranked recommendations, and
+  next-cycle validation plan.
 - [`docs/COMPOUNDED_IDEAS.md`](docs/COMPOUNDED_IDEAS.md): canonical synthesis
   of 20 independent brainstorming passes. It reduces 188 raw proposals to 146
   distinct candidates and ranks the strongest 30.
@@ -91,8 +88,10 @@ task easier than either project would independently.
 
 The catalog was produced from shallow clones and README/manifest inspection by
 parallel agents. A second independent pass screened every catalog entry and
-then inspected source in 27 repositories. No shortlisted component was built,
-installed, or runtime-tested during that pass.
+then inspected source in 27 repositories. The latest assessment inspected 13
+candidate repositories, ran four Python suites with 404 passing tests, and used
+targeted runtime probes to test several important component boundaries. It did
+not build an integrated product or conduct customer research.
 
 Repository descriptions are leads, not proof. Before implementing an idea,
 pin revisions, run each component's tests, exercise it with user-authored data,
