@@ -30,28 +30,34 @@ shot list, sound cues, and color plan synchronized as the edit changes. The
 recommended first vertical slice combines Kuleshov and Foleya; Chromascript is
 added after stable scene identities, editable timing, and persistence work.
 
-See [the source-checked analysis](docs/SOURCE_CHECKED_COMBINATIONS.md) for the
-proposed data model, implementation gaps, acceptance criteria, and staged MVP.
+See [the compounded 20-agent analysis](docs/COMPOUNDED_IDEAS.md) for the final
+top-30 ranking, detailed briefs, evidence, acceptance criteria, and validation
+plans. The earlier
+[source-checked analysis](docs/SOURCE_CHECKED_COMBINATIONS.md) contains the
+original staged MVP that established this recommendation.
 
 ## Strong candidates
 
 | Rank | Product idea | Projects | Primary user |
 |---|---|---|---|
 | 1 | Shot-to-sound production planner | `kuleshovussy` + `foleyaussy` + `chromascriptussy` | Independent creators and small film teams |
-| 2 | Service problems to measured improvement | `andoniaussy` + `shewhartaussy` + `a3viaussy` | Small service and fulfillment teams |
-| 3 | CI failure evidence packet | `triageussy` + `petrichorussy` | Software maintainers |
-| 4 | Family archive with inspectable readings | `cartoucheussy` + `archivioussy` | Family historians and archivists |
-| 5 | Confusion-focused learning lab | `cladwiseussy` + `criterioussy` | Learners and tutors |
-| 6 | Household handoff rehearsal | `raciaussy` + `transactaussy` | Roommates and families |
-| 7 | Volunteer gap desk | `commonsaussy` + `hoistussy` | Neighborhood and volunteer groups |
-| 8 | Playable harmony-and-rhythm sketchbook | `tonalussy` + `phyllotaxisussy` + `mojomast/shoedelussy` | Music learners and live coders |
-| 9 | Dependency-cycle refactoring priority | `hitchussy` + `churnmapussy` | Python maintainers |
-| 10 | Return-through-refund tracker | `retouraussy` + `prospectaussy` | People managing online returns |
+| 2 | Quote-to-capacity desk | `recapturaussy` + `bidussy` + `taktussy` | Small service businesses |
+| 3 | Service problems to measured improvement | `andoniaussy` + `shewhartaussy` + `a3viaussy` | Small service and fulfillment teams |
+| 4 | Test evidence calibration packet | `acumenussy` + `calibreussy` | Software maintainers |
+| 5 | Agent trajectory-to-regression clinic | `mojomast/clanker03` + `mojomast/hermes-agent` + `chainletussy` | Agent-platform maintainers |
+| 6 | CI failure evidence packet | `triageussy` + `petrichorussy` | Software maintainers |
+| 7 | Recoverable mirror release capsule | `mojomast/arrhivescrape` + `archivioussy` + `snapshotussy` | Web archivists |
+| 8 | Authored-content regression bench | `mojomast/ludotape` + `mojomast/feverfall` + `cartographerussy` | Small game teams |
+| 9 | Control and posture redesign cards | `fittsaussy` + `rulaiaussy` | People adapting controls and work surfaces |
+| 10 | Low-decision outing exit card | `egressaussy` + `controlaussy` | Families and small groups |
 
 ## Documents
 
+- [`docs/COMPOUNDED_IDEAS.md`](docs/COMPOUNDED_IDEAS.md): canonical synthesis
+  of 20 independent brainstorming passes. It reduces 188 raw proposals to 146
+  distinct candidates and ranks the strongest 30.
 - [`docs/SOURCE_CHECKED_COMBINATIONS.md`](docs/SOURCE_CHECKED_COMBINATIONS.md):
-  current ranked recommendations. All 459 catalog entries were screened and 27
+  prior independent shortlist. All 459 catalog entries were screened and 27
   promising repositories received targeted static source inspection.
 - [`docs/REPOSITORY_INDEX.md`](docs/REPOSITORY_INDEX.md): complete working index
   of 330 public `ussyverse` repositories and 129 public `mojomast`
@@ -61,6 +67,9 @@ proposed data model, implementation gaps, acceptance criteria, and staged MVP.
   brainstorming history; later source inspection rejected or narrowed several
   ideas.
 - [`AGENTS.md`](AGENTS.md): instructions for agents continuing this research.
+- [`docs/ideas-01-developer.md`](docs/ideas-01-developer.md) through
+  [`docs/ideas-20-red-team.md`](docs/ideas-20-red-team.md): raw, lens-specific
+  brainstorming passes retained for evidence and ideas outside the top 30.
 
 ## What makes a good combination?
 

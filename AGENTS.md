@@ -12,11 +12,13 @@ what is known, inferred, proposed, and still untested.
 ## Read first
 
 1. Read `README.md` for the purpose and current recommendation.
-2. Read `docs/SOURCE_CHECKED_COMBINATIONS.md` before proposing an idea already
-   covered there.
-3. Search `docs/REPOSITORY_INDEX.md` for candidate capabilities and related
+2. Read `docs/COMPOUNDED_IDEAS.md` before proposing an idea already covered by
+   the 20-agent synthesis.
+3. Read `docs/SOURCE_CHECKED_COMBINATIONS.md` for the earlier deep analysis and
+   staged audiovisual MVP.
+4. Search `docs/REPOSITORY_INDEX.md` for candidate capabilities and related
    projects.
-4. Use `docs/INITIAL_COMBINATIONS.md` only as historical brainstorming. It is
+5. Use `docs/INITIAL_COMBINATIONS.md` only as historical brainstorming. It is
    not source validation and contains ideas later narrowed or rejected.
 
 ## Evidence rules
